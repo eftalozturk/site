@@ -8,9 +8,11 @@ body {
 }
 .container {
   max-width: 1660px;
+  margin: 0px;
 }
 .header-links {
-  margin-left: 300px;
+  float: right;
+  margin-right: 14px;
 }
 .header-links a:hover {
   text-decoration: none;
@@ -275,7 +277,8 @@ p {
 .search-twitter {
   background-image: url(search.svg);
   background-repeat: no-repeat;
-  background-position: left;
+  background-position-x: 18px;
+  background-position-y: 50%;
   border-style: none;
   border-radius: 19.5px;
   background-color: #e6ecf0;
